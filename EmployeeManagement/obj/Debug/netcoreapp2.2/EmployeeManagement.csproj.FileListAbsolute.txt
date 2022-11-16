@@ -23,3 +23,4 @@ C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\ne
 C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorTargetAssemblyInfo.cs
 C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.Views.pdb
 C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs

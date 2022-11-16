@@ -17,9 +17,10 @@ namespace EmployeeManagement.controllers
             this.employeeRepository = employeeRepository;
         }
 
-        public Employee Index()
+        public ViewResult Index()
         {
-            return this.employeeRepository.GetEmployee(1);
+            var model = this.employeeRepository.GetEmployeeList();
+            return View(model);
         }
 
         public List<Employee> EmployeeList()
