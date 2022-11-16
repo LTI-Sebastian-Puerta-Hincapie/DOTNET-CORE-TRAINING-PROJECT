@@ -1,0 +1,15 @@
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\appsettings.json
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.deps.json
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.runtimeconfig.json
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.runtimeconfig.dev.json
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.dll
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.pdb
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorAssemblyInfo.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorAssemblyInfo.cs
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.AssemblyInfoInputs.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.AssemblyInfo.cs
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorTargetAssemblyInfo.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.dll
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.pdb
