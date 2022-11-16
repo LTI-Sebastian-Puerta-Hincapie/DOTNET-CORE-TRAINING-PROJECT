@@ -13,3 +13,13 @@ C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\ne
 C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorTargetAssemblyInfo.cache
 C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.dll
 C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.pdb
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.Views.dll
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\bin\Debug\netcoreapp2.2\EmployeeManagement.Views.pdb
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.csprojAssemblyReference.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.TagHelpers.input.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.TagHelpers.output.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorCoreGenerate.cache
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\views\Home\Details.cshtml.g.cs
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorTargetAssemblyInfo.cs
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.Views.pdb
+C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete

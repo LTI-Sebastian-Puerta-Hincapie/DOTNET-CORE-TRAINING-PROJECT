@@ -25,5 +25,11 @@ namespace EmployeeManagement.controllers
         {
             return this.employeeRepository.GetEmployeeList();
         }
+
+        public ViewResult Details()
+        {
+            Employee model = this.employeeRepository.GetEmployee(1);
+            return View(model);
+        }
     }
 }
