@@ -28,9 +28,9 @@ namespace EmployeeManagement.controllers
             return this.employeeRepository.GetEmployeeList();
         }
 
-        public ViewResult Details()
+        public ViewResult Details(int id)
         {
-            Employee model = this.employeeRepository.GetEmployee(1);
+            Employee model = this.employeeRepository.GetEmployee(id);
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
                 Employee = model,

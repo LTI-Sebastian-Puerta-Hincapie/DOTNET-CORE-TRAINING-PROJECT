@@ -38,12 +38,12 @@ namespace EmployeeManagement
             }
 
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
-
-            app.Run(async (context) =>
+            //app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                routes.MapRoute("default", "{controller}/{action}/{id)");
             });
+
         }
     }
 }
