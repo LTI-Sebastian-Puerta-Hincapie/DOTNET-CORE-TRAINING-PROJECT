@@ -13,7 +13,7 @@
                 <div class="card-header">
                     <h3>@employee.Name</h3>
                 </div>
-                <img class="card-img-top employee-image" src="~/images/noimage.png" />
+                <img class="card-img-top employee-image" src="~/images/noimage.png" asp-append-version="true"/>
                 <div class="card-footer text-center">
                     <a asp-controller="home" asp-action="details" asp-route-id="@employee.ID"
                         class="btn btn-primary">Display
