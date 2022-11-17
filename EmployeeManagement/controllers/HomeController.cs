@@ -49,5 +49,11 @@ namespace EmployeeManagement.controllers
             };
             return View(homeDetailsViewModel);
         }
+
+        [Route("Create")]
+        public ViewResult Create()
+        {
+            return View();
+        }
     }
 }

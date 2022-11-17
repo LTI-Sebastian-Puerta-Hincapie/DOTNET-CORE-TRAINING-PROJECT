@@ -23,8 +23,13 @@ using EmployeeManagement.models;
 
 #line default
 #line hidden
+#line 3 "C:\dotnet-workspace\DOTNET-CORE-TRAINING-PROJECT\EmployeeManagement\Views\_ViewImports.cshtml"
+using EmployeeManagement.Models.Enums;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eeaf0b759d4024b140dbe3aa9550999611bb0755", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8ac53b555a38021c7b18f1379e5f5f24b1863380", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
