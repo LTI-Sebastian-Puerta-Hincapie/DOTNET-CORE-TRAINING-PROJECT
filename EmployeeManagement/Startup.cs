@@ -28,7 +28,7 @@ namespace EmployeeManagement
         public void ConfigureServices(IServiceCollection services)
         {
             // SQL Configuration
-            services.AddDbContextPool<AppDbContext>(
+            services.AddDbContext<AppDbContext>(
                 options => options.UseSqlServer(this.config.GetConnectionString("EmployeeDBConnection"))
             );
 
