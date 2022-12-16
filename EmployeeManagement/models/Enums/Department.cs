@@ -7,11 +7,11 @@ namespace EmployeeManagement.Models.Enums
 {
     public enum Department
     {
+        None,
         IT,
         Legal,
         HR,
         Accounting,
-        Payroll,
-        None
+        Payroll
     }
 }
