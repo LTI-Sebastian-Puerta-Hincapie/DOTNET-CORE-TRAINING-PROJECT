@@ -12,7 +12,7 @@ namespace EmployeeManagement.models
 
         public InMemoryEmployeeRepository()
         {
-            this.employees = new List<Employee>()
+            employees = new List<Employee>()
             {
                 new Employee() { ID = 1, Name = "Marcus", Department = Department.IT, Email = "marcus@test.com" },
                 new Employee() { ID = 2, Name = "Ellen", Department = Department.HR, Email = "ellen@test.com" },
@@ -22,14 +22,21 @@ namespace EmployeeManagement.models
             };
         }
 
+        public Employee AddEmployee(Employee employee)
+        {
+            employee.ID = employees.Max(x => x.ID) + 1;
+            employees.Add(employee);
+            return employees.LastOrDefault();
+        }
+
         public Employee GetEmployee(int employeeId)
         {
-            return this.employees.Where(x => x.ID == employeeId).SingleOrDefault();
+            return employees.Where(x => x.ID == employeeId).SingleOrDefault();
         }
 
         public List<Employee> GetEmployeeList()
         {
-            return this.employees;
+            return employees;
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.controllers
 {
-    [Route("Home")]
+    //[Route("Home")]
     //[Route("[controller]")]
     public class HomeController : Controller
     {
@@ -19,28 +19,28 @@ namespace EmployeeManagement.controllers
             this.employeeRepository = employeeRepository;
         }
 
-        [Route("")]
-        [Route("/")]
-        [Route("Index")]
+        //[Route("")]
+        //[Route("/")]
+        //[Route("Index")]
         //[Route("[action]")]
         public ViewResult Index()
         {
-            var model = this.employeeRepository.GetEmployeeList();
+            var model = employeeRepository.GetEmployeeList();
             return View(model);
         }
 
-        [Route("Employees")]
+        //[Route("Employees")]
         //[Route("[action]")]
         public List<Employee> EmployeeList()
         {
-            return this.employeeRepository.GetEmployeeList();
+            return employeeRepository.GetEmployeeList();
         }
 
-        [Route("Details/{id}")]
+        //[Route("Details/{id}")]
         //[Route("[action]/{id}")]
-        public ViewResult Details(int id)
+        public ViewResult Details(int? id)
         {
-            Employee model = this.employeeRepository.GetEmployee(id);
+            Employee model = employeeRepository.GetEmployee(id ?? 1);
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
                 Employee = model,
@@ -50,10 +50,18 @@ namespace EmployeeManagement.controllers
             return View(homeDetailsViewModel);
         }
 
-        [Route("Create")]
+        //[Route("Create")]
+        [HttpGet]
         public ViewResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        public RedirectToActionResult Create(Employee employee)
+        {
+            var newEmployee = employeeRepository.AddEmployee(employee);
+            return RedirectToAction("details", new { id = newEmployee.ID});
         }
     }
 }

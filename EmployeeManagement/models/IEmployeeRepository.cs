@@ -9,5 +9,6 @@ namespace EmployeeManagement.models
     {
         List<Employee> GetEmployeeList();
         Employee GetEmployee(int employeeId);
+        Employee AddEmployee(Employee Employee);
     }
 }
