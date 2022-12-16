@@ -31,7 +31,7 @@ namespace EmployeeManagement.controllers
 
         //[Route("Employees")]
         //[Route("[action]")]
-        public List<Employee> EmployeeList()
+        public IEnumerable<Employee> EmployeeList()
         {
             return employeeRepository.GetEmployeeList();
         }

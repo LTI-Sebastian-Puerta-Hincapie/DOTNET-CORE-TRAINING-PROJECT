@@ -7,8 +7,10 @@ namespace EmployeeManagement.models
 {
     public interface IEmployeeRepository
     {
-        List<Employee> GetEmployeeList();
+        IEnumerable<Employee> GetEmployeeList();
         Employee GetEmployee(int employeeId);
         Employee AddEmployee(Employee Employee);
+        Employee UpdateEmployee(Employee Employee);
+        Employee DeleteEmployee(int employeeId);
     }
 }

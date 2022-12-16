@@ -34,9 +34,30 @@ namespace EmployeeManagement.models
             return employees.Where(x => x.ID == employeeId).SingleOrDefault();
         }
 
-        public List<Employee> GetEmployeeList()
+        public IEnumerable<Employee> GetEmployeeList()
         {
             return employees;
+        }
+
+        public Employee DeleteEmployee(int employeeId)
+        {
+            var employee = employees.SingleOrDefault(x => x.ID == employeeId);
+            if(employee != null)
+            {
+                employees.Remove(employee);
+            }
+            return employee;
+        }
+
+        public Employee UpdateEmployee(Employee employee)
+        {
+            var existingEmployee = employees.SingleOrDefault(x => x.ID == employee.ID);
+            if (existingEmployee != null)
+            {
+                var index = employees.IndexOf(existingEmployee);
+                employees[index] = employee;
+            }
+            return employees.Where(x => x.ID == existingEmployee.ID).SingleOrDefault();
         }
     }
 }

@@ -35,9 +35,10 @@ namespace EmployeeManagement
             services.AddMvc().AddXmlDataContractSerializerFormatters();
 
             // In-Memory
-            services.AddTransient<IEmployeeRepository, InMemoryEmployeeRepository>();
+            //services.AddTransient<IEmployeeRepository, InMemoryEmployeeRepository>();
 
             // SQL
+            services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 
         }
 
